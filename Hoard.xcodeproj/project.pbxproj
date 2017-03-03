@@ -12,6 +12,12 @@
 		B8F948371E69395300BF2719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F948351E69395300BF2719 /* Main.storyboard */; };
 		B8F948391E69395300BF2719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F948381E69395300BF2719 /* Assets.xcassets */; };
 		B8F9483C1E69395300BF2719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F9483A1E69395300BF2719 /* LaunchScreen.storyboard */; };
+		B8F948451E6980A100BF2719 /* Cachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F948441E6980A100BF2719 /* Cachable.swift */; };
+		B8F948471E69819500BF2719 /* UIImage+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F948461E69819500BF2719 /* UIImage+Cache.swift */; };
+		B8F948491E6984F100BF2719 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F948481E6984F100BF2719 /* Cache.swift */; };
+		B8F9484B1E698AE300BF2719 /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9484A1E698AE300BF2719 /* MemoryCache.swift */; };
+		B8F9484D1E69909A00BF2719 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9484C1E69909A00BF2719 /* DiskCache.swift */; };
+		B8F9484F1E699CC500BF2719 /* Hoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9484E1E699CC500BF2719 /* Hoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		B8F948381E69395300BF2719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8F9483B1E69395300BF2719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8F9483D1E69395300BF2719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F948441E6980A100BF2719 /* Cachable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cachable.swift; sourceTree = "<group>"; };
+		B8F948461E69819500BF2719 /* UIImage+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Cache.swift"; sourceTree = "<group>"; };
+		B8F948481E6984F100BF2719 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		B8F9484A1E698AE300BF2719 /* MemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCache.swift; sourceTree = "<group>"; };
+		B8F9484C1E69909A00BF2719 /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
+		B8F9484E1E699CC500BF2719 /* Hoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,12 @@
 		B8F948431E6939CE00BF2719 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B8F948441E6980A100BF2719 /* Cachable.swift */,
+				B8F948461E69819500BF2719 /* UIImage+Cache.swift */,
+				B8F948481E6984F100BF2719 /* Cache.swift */,
+				B8F9484A1E698AE300BF2719 /* MemoryCache.swift */,
+				B8F9484C1E69909A00BF2719 /* DiskCache.swift */,
+				B8F9484E1E699CC500BF2719 /* Hoard.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -145,7 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F948451E6980A100BF2719 /* Cachable.swift in Sources */,
+				B8F948491E6984F100BF2719 /* Cache.swift in Sources */,
 				B8F948341E69395300BF2719 /* ViewController.swift in Sources */,
+				B8F9484B1E698AE300BF2719 /* MemoryCache.swift in Sources */,
+				B8F9484F1E699CC500BF2719 /* Hoard.swift in Sources */,
+				B8F948471E69819500BF2719 /* UIImage+Cache.swift in Sources */,
+				B8F9484D1E69909A00BF2719 /* DiskCache.swift in Sources */,
 				B8F948321E69395300BF2719 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
